@@ -4,10 +4,6 @@
 minio_server_bin: /usr/local/bin/minio
 minio_client_bin: /usr/local/bin/mc
 
-# Minio release to install. default if lastet
-minio_server_release: ""
-minio_client_release: ""
-
 # Runtime user and group for the Minio server service
 minio_user: minio
 minio_group: minio
@@ -33,8 +29,8 @@ minio_server_env_extra: ""
 minio_server_opts: ""
 
 # Minio access and secret keys
-minio_access_key: ""
-minio_secret_key: ""
+minio_root_user: ""
+minio_root_password: ""
 
 # Switches to enable/disable the Minio server and/or Minio client installation.
 minio_install_server: true
